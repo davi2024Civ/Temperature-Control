@@ -16,9 +16,9 @@ Now, we have to know the value of L,K,T
 - K is the difference between the settling value and the start point.
 - All these things can be viewd in *MathModelPlan.m*
 <img width="698" height="628" alt="image" src="https://github.com/user-attachments/assets/f3f6b3e2-ad10-49f4-ade8-b11638f9b2e9" />
-
+The value of K has to be divided by 40 because it is the percent of the input value. So its units are C/%
 Then, I have:
-K =       13.905
+K =       13.905/40
 T =                 106.25
 L = 10
 
