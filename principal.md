@@ -14,4 +14,16 @@ Now, we have to know the value of L,K,T
 - T is the constant of time, so it´s gonna be the settling time divided by4. My settling time is aprox 425.
 - K is the difference between the settling value and the start point.
 - All these things can be viewd in *MathModelPlan.m*
+<img width="698" height="628" alt="image" src="https://github.com/user-attachments/assets/f3f6b3e2-ad10-49f4-ade8-b11638f9b2e9" />
 
+Then, I have:
+K =       13.905
+T =                 106.25
+L = 10
+
+I noticed that, we can also consider the constant of time like the time that the maximum slope of the function take from the start point to the settling value. But we have to work eith a filter, because we have discrete points.
+
+Now we have our plant.
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
