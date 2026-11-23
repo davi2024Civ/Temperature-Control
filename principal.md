@@ -7,6 +7,7 @@ First, in *datos.txt* i collected all the temperature values, with a sample time
 
 Then print the response: (*graph1.m*)
 <img width="684" height="620" alt="image" src="https://github.com/user-attachments/assets/a9f13496-dffe-4e6d-9636-0c47603018cc" />
+(This is the response of the code 40porciento.imo)
 As we can see we have something similar like a funciont of first order.
 
 Now, we have to know the value of L,K,T
@@ -24,6 +25,4 @@ L = 10
 I noticed that, we can also consider the constant of time like the time that the maximum slope of the function take from the start point to the settling value. But we have to work eith a filter, because we have discrete points.
 
 Now we have our plant.
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+$`a_1 + a_2 = a_3`$
